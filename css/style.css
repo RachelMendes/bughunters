@@ -1,0 +1,255 @@
+/* Tags Html */
+body{
+	color: #242934;
+	background-color: #ffffff;
+	font-family: "Raleway", Helvetica, Arial, Verdana, sans-serif;
+}
+
+p, span{
+	font-size: 16px;
+	font-family: "Raleway", Helvetica, Arial, Verdana, sans-serif;	
+}
+
+section{
+	padding-top: 5px;
+	margin: 20px 0;	
+}
+
+/* IDs */
+#main-logo{
+	max-width: 200px;		
+}
+
+#site-img{
+	border: none;
+	background-color: #ffffff;
+}
+
+#solucoes, #orcamento{
+	color: #f1f1f1;	
+	background-color: #265fa8;
+} 
+
+#bh-text{
+	max-width: 200px;
+}
+
+#depoimentos{
+	background-color: #ededed;
+	min-height: 275px;
+}
+
+#orc-msg{
+	margin-top: -15px;
+}
+
+#simple-logo{
+	max-width: 140px;
+}
+
+/* Menu Principal */
+.menu-top{
+
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover{
+	background-color: #2ebba9;
+}
+
+/* Geral */
+.main-div{
+	margin-top: 60px;
+}
+
+.page-section{
+	padding: 40px 0;
+}
+
+.mb{
+	margin-bottom: 40px;
+}
+
+.title{
+	padding-bottom: 30px;
+	font-size: 36px;
+}
+
+.btn:hover{
+	background-color: #242934;
+	color: #e8e8e8;
+}
+
+.light-color{
+	color: #e8e8e8;
+}
+
+.dark-color-back{
+	background-color: #265fa8;	
+}
+
+.accent-color{
+	color: #2ebba9;	
+}
+
+.accent-color-back{
+	background-color: #2ebba9;	
+}
+
+/* Header */
+.top-text{
+	margin-top: 40px;
+}
+
+/* Formulário Orçamento */
+.orc-form{
+	padding: 40px 60px;
+	background-color: #ffffff;	
+}
+
+.orc-form h4{
+	color: #515151;	
+	margin-top: 0;
+	padding-bottom: 10px;
+}
+
+.btn-send{
+	width: 100%;
+	padding: 12px 20px;
+	border-radius: 4px;	
+}
+
+/* Soluções */
+.sol-ad{
+	margin: 10px 0;
+	min-height: 280px;
+}
+
+.sol-ad img{
+	width: 120px;
+	border: none;
+}
+
+/* Carousel */
+.carousel-inner blockquote{
+	padding: 10px 20% 40px 20%;
+}
+
+.carousel-control.left, .carousel-control.right{	
+	background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);	
+}
+
+.carousel-indicators .active{
+	background-color: #2ebba9;
+}
+
+.carousel-indicators li{
+	border: 1px solid #2ebba9;
+}
+
+/* Sobre */
+.about{
+	margin-top: 40px;
+}
+
+/* Portfolio */
+.portfolio{
+	margin-bottom: 40px;
+}
+
+.portfolio-item{
+	margin-top: 50px;
+} 
+
+.portfolio-item img:hover{
+	opacity: 0.85;
+}
+
+.port-title{
+	margin: 12px 80px 0 80px;
+	padding-bottom: 10px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	font-size: 18px;
+	border-bottom: 1px solid #515151;	
+}
+
+.port-subtitle{
+	margin-top: 10px;	
+}
+
+/* Contato */
+.cont-form{
+	margin: 40px 0;
+}
+
+.cont-info{
+	margin: 25px 5px;
+	padding: 0;
+	min-height: 150px;	
+	background-color: #ededed;
+	border-bottom: 8px solid #2ebba9;
+}
+
+.cont-icon{
+	color: #2ebba9;
+	padding: 15px 0 0 15px;
+}
+
+/* Footer */
+.footer-above{
+	min-height: 150px;	
+	background-color: #d9d9d9;
+}
+
+.footer-col{
+	margin-top: 15px;
+}
+
+.footer-below{
+	background-color: #c0c0c0;
+}
+
+footer .footer-below p{
+	padding: 5px 0;
+}
+
+/* Orçamento (fixed button) */
+.fixed-btn{
+	position: fixed; 
+	bottom: 0;
+	right: 40px;
+	width: 250px;
+	height: 40px;
+	padding: 10px;	
+	border-radius: 10px 10px 0 0;
+	text-align: center;	
+}
+
+.fixed-btn a{	
+	font-size:16px;
+	color: #333333;
+}
+
+.fixed-btn a:hover{	
+	color: #ffffff;
+}
+
+.btn-gradient{
+	animation: btn-gradient 4s 0s alternate-reverse infinite;
+}
+
+/* Animation keyframe */
+@keyframes btn-gradient{
+	0% {
+		background-color: #38e1cb;
+	}
+	50% {
+		background-color: #2ebba9;
+	}
+	100% {
+		background-color: #279b8c;
+	}
+}
+
+

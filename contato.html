@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>BH Contato</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+	
+	<!-- Social Buttons CSS -->
+	<link rel="stylesheet" href="css/bootstrap-social.css">	
+
+	<!-- FontAwesome CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<!-- Google Fonts -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+	
+    <!-- Custom JS -->
+	<script src="js/script.js" type="text/javascript"></script>	
+	
+	<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>	
+
+</head>
+
+<body>
+
+	<!-- Barra de Navegação (menu principal) -->
+    <nav class="navbar navbar-default navbar-fixed-top menu-top" role="navigation">
+		<div class="container">
+			
+			<!-- Dependendo do tamanho da tela a barra de navegação pode se agrupar ou voltar a se expandir.
+				Em telas pequenas, os links do menu são substituídos por um botão no canto superior esquerdo.
+				Nessa situação, somente quando o botão é clicado, os links serão mostrados. -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#meu-menu">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>					
+				</button>
+				<!-- Logo Bug Hunters -->
+				<a class="navbar-left" href="index.html"><img src="img/bHunters-nav-color.png" id="main-logo" alt="logo"/></a>
+			</div>
+			
+			<div class="collapse navbar-collapse" id="meu-menu">
+				<!-- Lista de Páginas Disponíveis -->
+				<ul class="nav navbar-nav navbar-right text-uppercase">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="sobre.html">Sobre</a></li>
+					<li><a href="portfolio.html">Portfólio</a></li>
+					<li class="active"><a href="contato.html">Contato</a></li>
+					<li>
+						<button class="btn btn-xs btn-default navbar-btn" onClick="changeSizePlus();">A+</button>
+						<button class="btn btn-xs btn-default navbar-btn" onClick="changeSizeDefault();">A</button>						
+						<button class="btn btn-xs btn-default navbar-btn" onClick="changeSizeMinus();">A-</button>
+					</li>	
+				</ul>
+			</div>
+			
+		</div>
+	</nav>
+
+	<main class="main-div">		
+
+		<!-- Fale Conosco Section -->
+		<section class="page-section">
+			<div class="container">
+
+				<h1 class="text-center title">Fale Conosco</h1>
+				<p class="text-center lead">Preencha o formulário e envie sua mensagem. Retornaremos o mais breve possível!</p>
+				
+				<!-- Formulário de Contato -->
+				<div class="col-sm-8">				
+					<form class="form-horizontal cont-form" action="">
+
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="cont-nome">Nome:</label>
+							<div class="col-sm-9">
+								<input type="text" class="form-control input-lg" id="cont-nome" placeholder="Digite o seu nome" name="nome">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="cont-email">E-mail:</label>
+							<div class="col-sm-9">
+								<input type="email" class="form-control input-lg" id="cont-email" placeholder="Informe um e-mail para contato" name="email">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="cont-fone">Telefone:</label>
+							<div class="col-sm-9">
+								<input type="text" class="form-control input-lg" id="cont-fone" placeholder="(00) 0000-0000" name="fone">
+							</div>
+						</div>	
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="cont-texto">Mensagem:</label>
+							<div class="col-sm-9">
+								<textarea class="form-control input-lg" rows="8" placeholder="Digite a sua mensagem ou a sua dúvida"></textarea>
+							</div>
+						</div>					
+						<div class="col-sm-2"></div>
+						<div class="col-sm-9">
+							<button type="submit" class="btn btn-default btn-send btn-color text-uppercase accent-color-back">Enviar Mensagem</button>
+						</div>
+				
+					</form>
+				</div>
+			
+				<!-- Informações de Contato -->
+				<div class="col-sm-4">
+					<div class="cont-info">
+						<div class="col-sm-3"> 
+							<span class="fa fa-phone fa-3x cont-icon"></span>
+						</div>
+						<div class="col-sm-9">
+							<h3>Telefones</h3>
+							<p>(85) 0000-0000</p>
+							<p>(85) 0000-0000</p>
+						</div>
+					</div>			
+					<div class="cont-info">
+						<div class="col-sm-3">
+							<span class="fa fa-envelope fa-3x cont-icon"></span>
+						</div>
+						<div class="col-sm-9">		
+							<h3>E-mail</h3>
+							<p>bug_hunters@gmail.com</p>
+						</div>
+					</div>			
+					<div class="cont-info">
+						<div class="col-sm-3">
+							<span class="fa fa-map-marker fa-3x cont-icon"></span>
+						</div>
+						<div class="col-sm-9">
+							<h3>Endereço</h3>
+							<p>Rua 000000000, 000</p>
+							<p>Fortaleza-CE</p>							
+						</div>
+					</div>					
+				</div>
+	
+			</div>
+		</section>
+		
+	</main>
+	
+	<footer>
+	
+		<div class="footer-above"> <!-- Footer Superior -->
+			<div class="container">
+				<div class="row">
+					<!-- Footer: Primeira Coluna (logo) -->
+					<div class="col-md-3 col-md-offset-1 footer-col">
+						<a href="index.html"><img src="img/bHunters-footer.png" id="simple-logo" class="img-fluid" alt="logo simples"></a>
+					</div>
+					<!-- Footer: Segunda Coluna (redes sociais) -->					
+					<div class="col-md-3 col-md-offset-1 footer-col">
+						<!-- Redes Sociais: Lista Superior -->
+						<ul class="list-inline">
+							<li>
+								<a class="btn btn-social-icon btn-facebook" target="_blank" href="https://www.facebook.com/">
+									<span class="fa fa-facebook"></span>
+								</a>
+							</li>
+							<li>
+								<a class="btn btn-social-icon btn-instagram" target="_blank" href="https://www.instagram.com/">
+									<span class="fa fa-instagram"></span>
+								</a>
+							</li>
+							<li>
+								<a class="btn btn-social-icon btn-twitter" target="_blank" href="https://twitter.com/">
+									<span class="fa fa-twitter"></span>
+								</a>
+							</li>
+							<li>
+								<a class="btn btn-social-icon btn-linkedin" target="_blank" href="https://br.linkedin.com/">
+									<span class="fa fa-linkedin"></span>
+								</a>
+							</li>	
+						</ul>	
+						<!-- Redes Sociais: Lista Inferior -->
+						<ul class="list-inline">
+							<li>
+								<a class="btn btn-social-icon btn-tumblr" target="_blank" href="https://www.tumblr.com/">
+									<span class="fa fa-tumblr"></span>
+								</a>
+							</li>
+							<li>
+								<a class="btn btn-social-icon btn-pinterest" target="_blank" href="https://br.pinterest.com/">
+									<span class="fa fa-pinterest"></span>
+								</a>
+							</li>
+							<li>
+								<a class="btn btn-social-icon btn-google" target="_blank" href="https://www.youtube.com/">
+									<span class="fa fa-youtube"></span>
+								</a>
+							</li>
+							<li>
+								<a class="btn btn-social-icon btn-github" target="_blank" href="https://github.com/">
+									<span class="fa fa-github"></span>
+								</a>
+							</li>	
+						</ul>						
+					</div>
+					<!-- Footer: Terceira Coluna (contato) -->						
+					<div class="col-md-3 col-md-offset-1 footer-col">
+						<h5><span class="fa fa-phone accent-color"></span> (85) 0000-0000</h5>		
+						<h5><span class="fa fa-envelope accent-color"></span> bug_hunters@gmail.com</h5>
+						<h5><span class="fa fa-map-marker accent-color"></span> Rua 000000000, 000 | Fortaleza-CE</h5>							
+					</div>					
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-below"> <!-- Footer Inferior -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>&copy; 2019 Bug Hunters – Criação de Sites – Todos os direitos reservados</p>
+                    </div>					
+                </div>
+            </div>
+        </div>		
+	
+	</footer>
+
+</body>
+
+</html>

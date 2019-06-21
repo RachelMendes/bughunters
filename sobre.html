@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>BH Sobre</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+	
+	<!-- Social Buttons CSS -->
+	<link rel="stylesheet" href="css/bootstrap-social.css">	
+
+	<!-- FontAwesome CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<!-- Google Fonts -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+	
+    <!-- Custom JS -->
+	<script src="js/script.js" type="text/javascript"></script>	
+	
+	<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>	
+
+</head>
+
+<body>
+
+	<!-- Barra de Navegação (menu principal) -->
+    <nav class="navbar navbar-default navbar-fixed-top menu-top" role="navigation">
+		<div class="container">
+			
+			<!-- Dependendo do tamanho da tela a barra de navegação pode se agrupar ou voltar a se expandir.
+				Em telas pequenas, os links do menu são substituídos por um botão no canto superior esquerdo.
+				Nessa situação, somente quando o botão é clicado, os links serão mostrados. -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#meu-menu">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>					
+				</button>
+				<!-- Logo Bug Hunters -->
+				<a class="navbar-left" href="index.html"><img src="img/bHunters-nav-color.png" id="main-logo" alt="logo"/></a>
+			</div>
+			
+			<div class="collapse navbar-collapse" id="meu-menu">
+				<!-- Lista de Páginas Disponíveis -->
+				<ul class="nav navbar-nav navbar-right text-uppercase">
+					<li><a href="index.html">Home</a></li>
+					<li class="active"><a href="sobre.html">Sobre</a></li>
+					<li><a href="portfolio.html">Portfólio</a></li>
+					<li><a href="contato.html">Contato</a></li>
+					<li>
+						<button class="btn btn-xs btn-default navbar-btn" onClick="changeSizePlus();">A+</button>
+						<button class="btn btn-xs btn-default navbar-btn" onClick="changeSizeDefault();">A</button>						
+						<button class="btn btn-xs btn-default navbar-btn" onClick="changeSizeMinus();">A-</button>
+					</li>	
+				</ul>
+			</div>
+			
+		</div>
+	</nav>
+	
+	<main class="main-div">
+
+		<section class="page-section" id="sobre">
+			<div class="container">
+				<div class="row">
+					<h2 class="title text-center">Somos a <span><img id="bh-text" alt="Bug Hunters" src="img/bh-text.png"></span></h2>
+					<h3 class="text-center mb">Uma empresa de desenvolvimento web especializada na criação de sites que atua em todo território nacional, 
+					além de prestar serviços para o exterior.</h3>
+					<hr>
+					<div class="col-sm-offset-1 col-sm-10 text-center about">
+						<p class="lead mb">Nossa equipe é composta por profissionais especializados e competentes do ramo de mídias digitais, design, 
+						programação, publicidade e áreas afins, que estão comprometidos em sempre garantir a sua satisfação com o produto final.</p>
+						<p class="lead mb">Nossa missão é entregar a melhor solução para as necessidades dos nossos clientes. Sempre de forma ágil, organizada, 
+						eficiente e com uma política de preços justos e personalizados.</p>
+						<p class="lead mb">Aqui você encontra suporte para todas as suas necessidades durante o desenvolvimento do seu site, 
+						desde a criação da sua identidade visual, até a hospedagem e manutenção do mesmo.</p>
+					</div>	
+					<figure>
+						<img alt="Projetos Bug Hunters" src="img/bh-devices.png" class="img-responsive">						
+					</figure>
+				</div>
+			</div>
+		</section>
+	
+	</main>
+
+	<footer>
+	
+		<div class="footer-above"> <!-- Footer Superior -->
+			<div class="container">
+				<div class="row">
+					<!-- Footer: Primeira Coluna (logo) -->
+					<div class="col-md-3 col-md-offset-1 footer-col">
+						<a href="index.html"><img src="img/bHunters-footer.png" id="simple-logo" class="img-fluid" alt="logo simples"></a>
+					</div>
+					<!-- Footer: Segunda Coluna (redes sociais) -->					
+					<div class="col-md-3 col-md-offset-1 footer-col">
+						<!-- Redes Sociais: Lista Superior -->
+						<ul class="list-inline">
+							<li>
+								<a class="btn btn-social-icon btn-facebook" target="_blank" href="https://www.facebook.com/">
+									<span class="fa fa-facebook"></span>
+								</a>
+							</li>
+							<li>
+								<a class="btn btn-social-icon btn-instagram" target="_blank" href="https://www.instagram.com/">
+									<span class="fa fa-instagram"></span>
+								</a>
+							</li>
+							<li>
+								<a class="btn btn-social-icon btn-twitter" target="_blank" href="https://twitter.com/">
+									<span class="fa fa-twitter"></span>
+								</a>
+							</li>
+							<li>
+								<a class="btn btn-social-icon btn-linkedin" target="_blank" href="https://br.linkedin.com/">
+									<span class="fa fa-linkedin"></span>
+								</a>
+							</li>	
+						</ul>	
+						<!-- Redes Sociais: Lista Inferior -->
+						<ul class="list-inline">
+							<li>
+								<a class="btn btn-social-icon btn-tumblr" target="_blank" href="https://www.tumblr.com/">
+									<span class="fa fa-tumblr"></span>
+								</a>
+							</li>
+							<li>
+								<a class="btn btn-social-icon btn-pinterest" target="_blank" href="https://br.pinterest.com/">
+									<span class="fa fa-pinterest"></span>
+								</a>
+							</li>
+							<li>
+								<a class="btn btn-social-icon btn-google" target="_blank" href="https://www.youtube.com/">
+									<span class="fa fa-youtube"></span>
+								</a>
+							</li>
+							<li>
+								<a class="btn btn-social-icon btn-github" target="_blank" href="https://github.com/">
+									<span class="fa fa-github"></span>
+								</a>
+							</li>	
+						</ul>						
+					</div>
+					<!-- Footer: Terceira Coluna (contato) -->						
+					<div class="col-md-3 col-md-offset-1 footer-col">
+						<h5><span class="fa fa-phone accent-color"></span> (85) 0000-0000</h5>		
+						<h5><span class="fa fa-envelope accent-color"></span> bug_hunters@gmail.com</h5>
+						<h5><span class="fa fa-map-marker accent-color"></span> Rua 000000000, 000 | Fortaleza-CE</h5>							
+					</div>					
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-below"> <!-- Footer Inferior -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>&copy; 2019 Bug Hunters – Criação de Sites – Todos os direitos reservados</p>
+                    </div>					
+                </div>
+            </div>
+        </div>		
+	
+	</footer>
+
+</body>
+
+</html>
